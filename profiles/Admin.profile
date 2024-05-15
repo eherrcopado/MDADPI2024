@@ -13822,6 +13822,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Cook__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -22738,6 +22743,9 @@
         <layout>ContractLineItem-Formato de partida de contrato</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Cook__c-Cook Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CspTrustedSite-Trusted URL Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -23169,6 +23177,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ContractLineItem</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Cook__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
